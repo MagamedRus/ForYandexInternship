@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<script src="eel.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="library/jquery-3.5.1.min.js"></script>
+</head>
+
+
+<body>
+	<!-- Навигация -->
+	<header>
+		<div class="nav">
+			<button class="report">Отчёт</button>
+			<button class="new_user">Новый пользователь</button>
+			<button class="another_user">Другой пользователь</button>
+			<button class="convert_to">Конвертировать валюту</button>
+		</div>
+	</header>
+	<!-- Обмен валюты -->
+	<div class="wrapper-1">
+			<div class="wrapper-1-2">
+				<div class="exchange">
+					<input type="text" id="placeholder-1" class="placeholder-1" placeholder="Выберете первую валюту..">
+					<select class="choose-list-1 hide e_items-1" size="3">
+						<option disabled class="hide">Выберете валюту</option>
+						<option>Азербайджанский манат</option>
+						<option>Армянских драмов</option>
+						<option>Белорусский рубль</option>
+						<option>Болгарский лев</option>
+						<option>Бразильский реал</option>
+						<option>Венгерских форинтов</option>
+						<option>Вон Республики Корея</option>
+						<option>Гонконгский доллар</option>
+						<option>Датская крона</option>
+						<option>Доллар США</option>
+						<option>Евро</option>
+						<option>Индийских рупий</option>
+						<option>Казахстанских тенге</option>
+						<option>Киргизских сомов</option>
+						<option>Китайский юань</option>
+						<option>Индийских рупий</option>
+						<option>Канадский доллар</option>
+						<option>Молдавских леев</option>
+						<option>Новый туркменский манат</option>
+						<option>Норвежских крон</option>
+						<option>Польский злотый</option>
+						<option>Румынский лей</option>
+						<option>Сингапурский доллар</option>
+						<option>Таджикских сомони</option>
+						<option>Турецких лир</option>
+						<option>Узбекских сумов</option>
+						<option>Украинских гривен</option>
+						<option>Фунт стерлингов Соединенного королевства</option>
+						<option>Чешских крон</option>
+						<option>Шведских крон</option>
+						<option>Швейцарский франк</option>
+						<option>Южноафриканских рэндов</option>
+						<option>Японских иен</option>
+					</select>
+				</div>
+				
+				<div class="exchange">
+					<input type="text" id="placeholder-2" class="placeholder-2" placeholder="Введите сумму..">
+				</div>
+				<div class="exchange">
+					<input type="text" id="placeholder-3" class="placeholder-3" placeholder="Выберете вторую валюту..">
+					<select class="choose-list-2 hide e_items-2" size="3">
+							<option disabled>Выберете валюту</option>
+							<option>Азербайджанский манат</option>
+							<option>Армянских драмов</option>
+							<option>Белорусский рубль</option>
+							<option>Болгарский лев</option>
+							<option>Бразильский реал</option>
+							<option>Венгерских форинтов</option>
+							<option>Вон Республики Корея</option>
+							<option>Гонконгский доллар</option>
+							<option>Датская крона</option>
+							<option>Доллар США</option>
+							<option>Евро</option>
+							<option>Индийских рупий</option>
+							<option>Казахстанских тенге</option>
+							<option>Киргизских сомов</option>
+							<option>Китайский юань</option>
+							<option>Индийских рупий</option>
+							<option>Канадский доллар</option>
+							<option>Молдавских леев</option>
+							<option>Новый туркменский манат</option>
+							<option>Норвежских крон</option>
+							<option>Польский злотый</option>
+							<option>Румынский лей</option>
+							<option>Сингапурский доллар</option>
+							<option>Таджикских сомони</option>
+							<option>Турецких лир</option>
+							<option>Узбекских сумов</option>
+							<option>Украинских гривен</option>
+							<option>Фунт стерлингов Соединенного королевства</option>
+							<option>Чешских крон</option>
+							<option>Шведских крон</option>
+							<option>Швейцарский франк</option>
+							<option>Южноафриканских рэндов</option>
+							<option>Японских иен</option>
+					</select>
+				</div>
+			</div>
+			<div class="exchange res none"><div>
+			</div></div>
+			<div class="choose-bank-eachCity choose">
+				<div class="exchange">
+					<input type="text" class="placeholder-4" placeholder="Введите наименование банка">
+					<select class="choose-list-3 hide e_items-3" size="3">
+						<option>ПАО Банк "АЛЕКСАНДРОВСКИЙ"</option>
+						<option>ООО КБ "КОЛЬЦО УРАЛА"</option>
+						<option>АКБ "Энергобанк" (АО)</option>
+						<option>МОРСКОЙ БАНК (АО)</option>
+						<option>АО "БКС Банк"</option>
+						<option>АО АКБ "ЦентроКредит"</option>
+						<option>АО "РН Банк"</option>
+						<option>Прио-Внешторгбанк (ПАО)</option>
+						<option>АО КБ "Урал ФД"</option>
+						<option>АО КБ "Хлынов"</option>
+						<option>АО "ГУТА-БАНК"</option>
+						<option>ООО "ХКФ Банк"</option>
+						<option>АО "АБ "РОССИЯ"</option>
+						<option>Банк ГПБ (АО)</option>
+						<option>ООО Банк "Аверс"</option>
+						<option>ПАО "Бест Эффортс Банк"</option>
+						<option>ПАО "Банк "Санкт-Петербург"</option>
+						<option>АО "ТАТСОЦБАНК"</option>
+						<option>ПАО "ЧЕЛИНДБАНК"</option>
+						<option>ПАО "ЧЕЛЯБИНВЕСТБАНК"</option>
+						<option>ООО "Промсельхозбанк"</option>
+						<option>АО КБ "Солидарность"</option>
+						<option>АО "Банк Акцепт"</option>
+						<option>АО БАНК "СНГБ"</option>
+						<option>АО "Первый Инвестиционный Банк"</option>
+						<option>ПАО Банк "Кузнецкий"</option>
+						<option>АО "Датабанк"</option>
+						<option>ООО КБ "ГТ банк"</option>
+						<option>ПАО "НИКО-БАНК"</option>
+						<option>ПАО "СКБ-банк"</option>
+						<option>ООО КБЭР "Банк Казани"</option>
+						<option>АО УКБ "Белгородсоцбанк"</option>
+						<option>АО "Дальневосточный банк"</option>
+						<option>Банк Пермь (АО)</option>
+						<option>ПАО "Норвик Банк"</option>
+						<option>АО "ВЛАДБИЗНЕСБАНК"</option>
+						<option>ПАО "МИнБанк"</option>
+						<option>ПАО "Запсибкомбанк"</option>
+						<option>ПАО "Совкомбанк"</option>
+						<option>АО "ПЕРВОУРАЛЬСКБАНК"</option>
+						<option>АО "Евразийский банк"</option>
+						<option>Банк ВТБ (ПАО)</option>
+						<option>ООО "Хакасский муниципальный банк"</option>
+						<option>АО "МТИ Банк" </option>
+						<option>АО "РЕАЛИСТ БАНК"</option>
+						<option>"Братский АНКБ" АО</option>
+						<option>АО "Кузнецкбизнесбанк"</option>
+						<option>ПАО Ставропольпромстройбанк</option>
+						<option>КБ "ЭНЕРГОТРАНСБАНК" (АО)</option>
+						<option>АО "АЛЬФА-БАНК"</option>
+						<option>АО "Солид Банк"</option>
+						<option>Банк "Левобережный" (ПАО)</option>
+						<option>РНКБ Банк (ПАО)</option>
+						<option>ООО банк "Элита"</option>
+						<option>Банк "Возрождение" (ПАО)</option>
+						<option>ПАО Сбербанк</option>
+						<option>ПАО "РосДорБанк"</option>
+						<option>"СДМ-Банк" (ПАО)</option>
+						<option>Креди Агриколь КИБ АО</option>
+						<option>ПАО "БыстроБанк"</option>
+						<option>"Азиатско-Тихоокеанский Банк" (ПАО)</option>
+						<option>ООО "Инбанк"</option>
+						<option>АКБ "ФОРА-БАНК" (АО)</option>
+						<option>АО КБ "Модульбанк"</option>
+						<option>ООО МИБ "ДАЛЕНА"</option>
+						<option>ПАО "НБД-Банк"</option>
+						<option>ПАО "МОСКОВСКИЙ КРЕДИТНЫЙ БАНК"</option>
+						<option>"СИБСОЦБАНК" ООО</option>
+						<option>ПАО "САРОВБИЗНЕСБАНК"</option>
+						<option>АКБ "ПЕРЕСВЕТ" (ПАО)</option>
+						<option>АО АКБ "Алеф-Банк"</option>
+						<option>АКБ "НРБанк" (АО)</option>
+						<option>АКБ "Форштадт" (АО)</option>
+						<option>ПАО Банк "ФК Открытие"</option>
+						<option>АО "Банк Интеза"</option>
+						<option>ПАО КБ "Центр-инвест"</option>
+						<option>КИВИ Банк (АО)</option>
+						<option>АКБ "ТЕНДЕР-БАНК" (АО)</option>
+						<option>ПАО "МТС-Банк"</option>
+						<option>ПАО РОСБАНК</option>
+						<option>ПАО "БАНК УРАЛСИБ"</option>
+						<option>АО "Банк Русский Стандарт"</option>
+						<option>АКБ "Абсолют Банк" (ПАО)</option>
+						<option>Банк СОЮЗ (АО)</option>
+						<option>АКБ "БЭНК ОФ ЧАЙНА" (АО)</option>
+						<option>Инвестиционный Банк "ВЕСТА" (ООО)</option>
+						<option>АО "Банк ДОМ.РФ"</option>
+						<option>Банк "ИТУРУП" (ООО)</option>
+						<option>АО АКБ "ЕВРОФИНАНС МОСНАРБАНК"</option>
+						<option>ПАО АКБ "Металлинвестбанк"</option>
+						<option>ПАО "МЕТКОМБАНК"</option>
+						<option>ИНГ БАНК (ЕВРАЗИЯ) АО</option>
+						<option>КБ "Кубань Кредит" ООО</option>
+						<option>АО "АКТИВ БАНК" (ПАО)</option>
+						<option>АО КБ "Пойдём!"</option>
+						<option>АО АКБ "НОВИКОМБАНК"</option>
+						<option>АО Банк "ПСКБ"</option>
+						<option>АО КБ "Ситибанк"</option>
+						<option>"ЗИРААТ БАНК (МОСКВА)" (АО)</option>
+						<option>Банк "КУБ" (АО)</option>
+						<option>ПАО "АКИБАНК"</option>
+						<option>ПАО "АК БАРС" БАНК</option>
+						<option>АКБ "Алмазэргиэнбанк" АО</option>
+						<option>АО Банк "Объединенный капитал"</option>
+						<option>АО АКБ "МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ"</option>
+						<option>КБ "Дж.П. Морган Банк Интернешнл" (ООО)</option>
+						<option>ООО КБ "Алтайкапиталбанк"</option>
+						<option>АО "Тинькофф Банк"</option>
+						<option>КБ "ЛОКО-Банк" (АО)</option>
+						<option>"Северный Народный Банк" (АО)</option>
+						<option>ПАО СКБ Приморья "Примсоцбанк"</option>
+						<option>АКБ "Держава" ПАО</option>
+						<option>АО "НК Банк"</option>
+						<option>АО "Тексбанк"</option>
+						<option>АО "ОТП Банк"</option>
+						<option>ООО "АТБ" Банк</option>
+						<option>АО МС Банк Рус</option>
+						<option>АО РОСЭКСИМБАНК</option>
+						<option>АО "Банк ФИНАМ"</option>
+						<option>АО "БАНК СГБ"</option>
+						<option>ООО КБ "СИНКО-БАНК"</option>
+						<option>(АО "Банк "Агророс")</option>
+						<option>ПАО АКБ "АВАНГАРД"</option>
+						<option>АО КБ "АГРОПРОМКРЕДИТ"</option>
+						<option>"Банк Кремлевский" ООО</option>
+						<option>ООО КБ "АРЕСБАНК"</option>
+						<option>АО "ГОРБАНК"</option>
+						<option>АО "РОСКОСМОСБАНК"</option>
+						<option>АО "Углеметбанк"</option>
+						<option>ООО "Экспобанк"</option>
+						<option>ПАО АКБ "Приморье"</option>
+						<option>АО "Нордеа Банк"</option>
+						<option>"Республиканский Кредитный Альянс" ООО</option>
+						<option>Джей энд Ти Банк (АО)</option>
+						<option>ПАО "РГС Банк"</option>
+						<option>АО "РФК-банк"</option>
+						<option>АО "НС Банк"</option>
+						<option>АО "Банк БЖФ"</option>
+						<option>ПАО "Банк "Екатеринбург"</option>
+						<option>АО "МОСКОМБАНК"</option>
+						<option>ООО КБ "ВНЕШФИНБАНК"</option>
+						<option>АО КБ "ИС Банк"</option>
+						<option>Эс-Би-Ай Банк ООО</option>
+						<option>АО НОКССБАНК</option>
+						<option>АО "РУНА-БАНК"</option>
+						<option>АО "СЭБ Банк"</option>
+						<option>АО БАНК "МОСКВА-СИТИ"</option>
+						<option>ПАО "Промсвязьбанк"</option>
+						<option>ПАО Банк ЗЕНИТ</option>
+						<option>АО "БАНК ОРЕНБУРГ"</option>
+						<option>Банк "ВБРР" (АО)</option>
+						<option>ООО "Эйч-эс-би-си Банк (РР)"</option>
+						<option>АО "Райффайзенбанк"</option>
+						<option>"Русьуниверсалбанк" (ООО)</option>
+						<option>АО "КОШЕЛЕВ-БАНК"</option>
+						<option>АО "Кредит Европа Банк (Россия)"</option>
+						<option>ООО "Дойче Банк"</option>
+						<option>АО "Денизбанк Москва"</option>
+						<option>АО "КОММЕРЦБАНК (ЕВРАЗИЯ)"</option>
+						<option>АО "Мидзухо Банк (Москва)"</option>
+						<option>АО "МСП Банк"</option>
+						<option>АО "Россельхозбанк"</option>
+						<option>КБ "Ренессанс Кредит" (ООО)</option>
+						<option>КБ "Москоммерцбанк" (АО)</option>
+						<option>АО "СМП Банк"</option>
+						<option>АО "Банк Финсервис"</option>
+						<option>"Натиксис Банк АО"</option>
+						<option>"Банк "МБА-МОСКВА" ООО</option>
+						<option>АО "МБ Банк"</option>
+						<option>АО КБ "РУСНАРБАНК"</option>
+						<option>"БНП ПАРИБА БАНК" АО</option>
+						<option>ООО "Унифондбанк"</option>
+						<option>КБ "Новый век" (ООО)</option>
+						<option>АО Банк "Национальный стандарт"</option>
+						<option>Банк НФК (АО)</option>
+						<option>"Коммерческий Индо Банк" ООО</option>
+						<option>Банк "РЕСО Кредит" (АО)</option>
+						<option>АО "Эм-Ю-Эф-Джи Банк (Евразия)"</option>
+						<option>АО "Тойота Банк"</option>
+						<option>"Мерседес-Бенц Банк Рус" ООО</option>
+						<option>АйСиБиСи Банк (АО)</option>
+						<option>АО "СМБСР Банк"</option>
+						<option>ООО "Фольксваген Банк РУС"</option>
+						<option>ООО "Чайна Констракшн Банк"</option>
+
+					</select>
+				</div>
+				<div class="exchange choose">
+					<input type="text" class="placeholder-5" placeholder="Введите вашу область">
+					<select class="choose-list-4 hide e_items-4" size="3">
+						<option>Адыгея</option>
+						<option>Алтай</option>
+						<option>Алтайский край</option>
+						<option>Амурская область</option>
+						<option>Архангельская область</option>
+						<option>Астраханская область</option>
+						<option>Башкортостан</option>
+						<option>Белгородская область</option>
+						<option>Брянская область</option>
+						<option>Бурятия</option>
+						<option>Владимирская область</option>
+						<option>Волгоградская область</option>
+						<option>Вологодская область</option>
+						<option>Воронежская область</option>
+						<option>Дагестан</option>
+						<option>Еврейская АО</option>
+						<option>Забайкальский край</option>
+						<option>Ивановская область</option>
+						<option>Ингушетия</option>
+						<option>Иркутская область</option>
+						<option>Кабардино-Балкария</option>
+						<option>Калининградская область</option>
+						<option>Калмыкия</option>
+						<option>Калужская область</option>
+						<option>Камчатский край</option>
+						<option>Карачаево-Черкесия</option>
+						<option>Карелия</option>
+						<option>Кемеровская область</option>
+						<option>Кировская область</option>
+						<option>Коми</option>
+						<option>Костромская область</option>
+						<option>Краснодарский край</option>
+						<option>Красноярский край</option>
+						<option>Курганская область</option>
+						<option>Курская область</option>
+						<option>Ленинградская область</option>
+						<option>Липецкая область</option>
+						<option>Магаданская область</option>
+						<option>Марий Эл</option>
+						<option>Мордовия</option>
+						<option>Москва</option>
+						<option>Московская область</option>
+						<option>Мурманская область</option>
+						<option>Ненецкий Авт. Окр.</option>
+						<option>Нижегородская область</option>
+						<option>Новгородская область</option>
+						<option>Новосибирская область</option>
+						<option>Омская область</option>
+						<option>Оренбургская область</option>
+						<option>Орловская область</option>
+						<option>Пензенская область</option>
+						<option>Пермский край</option>
+						<option>Приморский край</option>
+						<option>Псковская область</option>
+						<option>Ростовская область</option>
+						<option>Рязанская область</option>
+						<option>Самарская область</option>
+						<option>Санкт-Петербург</option>
+						<option>Саратовская область</option>
+						<option>Сахалинская область</option>
+						<option>Свердловская область</option>
+						<option>Северная Осетия - Алания</option>
+						<option>Смоленская область</option>
+						<option>Ставропольский край</option>
+						<option>Тамбовская область</option>
+						<option>Татарстан</option>
+						<option>Тверская область</option>
+						<option>Томская область</option>
+						<option>Тульская область</option>
+						<option>Тыва</option>
+						<option>Тюменская область</option>
+						<option>Удмуртия</option>
+						<option>Ульяновская область</option>
+						<option>Хабаровский край</option>
+						<option>Хакасия</option>
+						<option>Ханты-Мансийский авт. окр.</option>
+						<option>Челябинская область</option>
+						<option>Чечня</option>
+						<option>Чувашия</option>
+						<option>Чукотский авт. окр.</option>
+						<option>Якутия</option>
+						<option>Ямало-Ненецкий авт. окр.</option>
+						<option>Ярославская область</option>
+					</select>
+				</div>
+			</div>
+			<button class="btn-1" style="margin-top: 70px;">Перевести</button>
+	</div>
+	
+
+	<!-- Пасспортные данные -->
+	<div class="wrapper-2">
+
+		<div class="lane-1">
+			<input type="text" class="first-name" placeholder="Имя">
+			<input type="text" class="second-name" placeholder="Фамилия">
+			<input type="text" class="last-name" placeholder="Отчество">
+		</div>
+
+		<div class="lane-2">
+			<input type="text" class="number" placeholder="Номер паспорта">
+			<input type="text" class="serial" placeholder="Серия паспорта">
+		</div>
+
+		<div class="lane-3">
+			<input type="text" class="date-of-reg" placeholder="Дата регистрации(дд-мм-гггг)">
+			<input type="text" class="code-of-reg" placeholder="Код отдела выдачи документа">
+		</div>
+
+		<div class="lane-4">
+			<input type="text" class="birdthplace" placeholder="Место рождения"> 
+			<input type="text" class="birthdate" placeholder="Дата рождения(дд-мм-гггг)">
+			<input type="text" class="sex" placeholder="Ваш пол(муж/жен)">
+		</div>
+	
+		<button class="for-wrapper-2">Подтвердить</button>
+
+	</div>
+	
+	<!-- Имеется ли пользователь в базе данных -->
+	<div class="wrapper-3">
+		<div class="wrapper-3-1">
+			<h1><b>Вы уже находитесь в базе данных?</b></h1>
+			<div>
+				<button class="for-wrapper-3-1-Yes">Да</button>
+				<button class="for-wrapper-3-1-No">Нет</button>
+			</div>
+		</div>
+
+		<div class="wrapper-3-2">
+			<input type="text" class="number-of-passport placeholder-6" placeholder="Введите ваш номер паспорта">
+			<select size="3" class="list-of-numbers hide choose-list-5 e_items-5">
+			</select>
+			<button class="for-wrapper-3-2-send">Потвердить</button>
+		</div>
+	</div>
+
+
+	<!-- Отчёт -->
+	<div class="wrapper-4">
+		<table class="tb">
+			<tr class="head">
+				<th>Банк</th>
+				<th>Дата</th>
+				<th>Клиент</th>
+				<th>Проданная валюта</th>
+				<th>Купленная валюта</th>
+				<th>Куплено</th>
+				<th>Затрачено</th>
+			</tr>
+			<tr class="body">
+				<td>что-то</td>
+				<td>что-то</td>
+				<td>что-то</td>
+				<td>что-то</td>
+				<td>что-то</td>
+				<td>что-то</td>
+				<td>что-то</td>
+			</tr>
+			
+		</table>
+	</div>
+
+
+	<script src="scripts/fast_search_for_selection.js"></script>
+	<script src="scripts/add_section.js"></script>
+	<script src="scripts/write_db.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+
+</html>
+

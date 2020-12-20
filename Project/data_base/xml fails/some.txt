@@ -1,0 +1,185 @@
+<option>АО ЮниКредит Банк</option>
+<option>ПАО Банк "АЛЕКСАНДРОВСКИЙ"</option>
+<option>ООО КБ "КОЛЬЦО УРАЛА"</option>
+<option>АКБ "Энергобанк" (АО)</option>
+<option>МОРСКОЙ БАНК (АО)</option>
+<option>АО "БКС Банк"</option>
+<option>АО АКБ "ЦентроКредит"</option>
+<option>АО "РН Банк"</option>
+<option>Прио-Внешторгбанк (ПАО)</option>
+<option>АО КБ "Урал ФД"</option>
+<option>АО КБ "Хлынов"</option>
+<option>АО "ГУТА-БАНК"</option>
+<option>ООО "ХКФ Банк"</option>
+<option>АО "АБ "РОССИЯ"</option>
+<option>Банк ГПБ (АО)</option>
+<option>ООО Банк "Аверс"</option>
+<option>ПАО "Бест Эффортс Банк"</option>
+<option>ПАО "Банк "Санкт-Петербург"</option>
+<option>АО "ТАТСОЦБАНК"</option>
+<option>ПАО "ЧЕЛИНДБАНК"</option>
+<option>ПАО "ЧЕЛЯБИНВЕСТБАНК"</option>
+<option>ООО "Промсельхозбанк"</option>
+<option>АО КБ "Солидарность"</option>
+<option>АО "Банк Акцепт"</option>
+<option>АО БАНК "СНГБ"</option>
+<option>АО "Первый Инвестиционный Банк"</option>
+<option>ПАО Банк "Кузнецкий"</option>
+<option>АО "Датабанк"</option>
+<option>ООО КБ "ГТ банк"</option>
+<option>ПАО "НИКО-БАНК"</option>
+<option>ПАО "СКБ-банк"</option>
+<option>ООО КБЭР "Банк Казани"</option>
+<option>АО УКБ "Белгородсоцбанк"</option>
+<option>АО "Дальневосточный банк"</option>
+<option>Банк Пермь (АО)</option>
+<option>ПАО "Норвик Банк"</option>
+<option>АО "ВЛАДБИЗНЕСБАНК"</option>
+<option>ПАО "МИнБанк"</option>
+<option>ПАО "Запсибкомбанк"</option>
+<option>ПАО "Совкомбанк"</option>
+<option>АО "ПЕРВОУРАЛЬСКБАНК"</option>
+<option>АО "Евразийский банк"</option>
+<option>Банк ВТБ (ПАО)</option>
+<option>ООО "Хакасский муниципальный банк"</option>
+<option>АО "МТИ Банк" </option>
+<option>АО "РЕАЛИСТ БАНК"</option>
+<option>"Братский АНКБ" АО</option>
+<option>АО "Кузнецкбизнесбанк"</option>
+<option>ПАО Ставропольпромстройбанк</option>
+<option>КБ "ЭНЕРГОТРАНСБАНК" (АО)</option>
+<option>АО "АЛЬФА-БАНК"</option>
+<option>АО "Солид Банк"</option>
+<option>Банк "Левобережный" (ПАО)</option>
+<option>РНКБ Банк (ПАО)</option>
+<option>ООО банк "Элита"</option>
+<option>Банк "Возрождение" (ПАО)</option>
+<option>ПАО Сбербанк</option>
+<option>ПАО "РосДорБанк"</option>
+<option>"СДМ-Банк" (ПАО)</option>
+<option>Креди Агриколь КИБ АО</option>
+<option>ПАО "БыстроБанк"</option>
+<option>"Азиатско-Тихоокеанский Банк" (ПАО)</option>
+<option>ООО "Инбанк"</option>
+<option>АКБ "ФОРА-БАНК" (АО)</option>
+<option>АО КБ "Модульбанк"</option>
+<option>ООО МИБ "ДАЛЕНА"</option>
+<option>ПАО "НБД-Банк"</option>
+<option>ПАО "МОСКОВСКИЙ КРЕДИТНЫЙ БАНК"</option>
+<option>"СИБСОЦБАНК" ООО</option>
+<option>ПАО "САРОВБИЗНЕСБАНК"</option>
+<option>АКБ "ПЕРЕСВЕТ" (ПАО)</option>
+<option>АО АКБ "Алеф-Банк"</option>
+<option>АКБ "НРБанк" (АО)</option>
+<option>АКБ "Форштадт" (АО)</option>
+<option>ПАО Банк "ФК Открытие"</option>
+<option>АО "Банк Интеза"</option>
+<option>ПАО КБ "Центр-инвест"</option>
+<option>КИВИ Банк (АО)</option>
+<option>АКБ "ТЕНДЕР-БАНК" (АО)</option>
+<option>ПАО "МТС-Банк"</option>
+<option>ПАО РОСБАНК</option>
+<option>ПАО "БАНК УРАЛСИБ"</option>
+<option>АО "Банк Русский Стандарт"</option>
+<option>АКБ "Абсолют Банк" (ПАО)</option>
+<option>Банк СОЮЗ (АО)</option>
+<option>АКБ "БЭНК ОФ ЧАЙНА" (АО)</option>
+<option>Инвестиционный Банк "ВЕСТА" (ООО)</option>
+<option>АО "Банк ДОМ.РФ"</option>
+<option>Банк "ИТУРУП" (ООО)</option>
+<option>АО АКБ "ЕВРОФИНАНС МОСНАРБАНК"</option>
+<option>ПАО АКБ "Металлинвестбанк"</option>
+<option>ПАО "МЕТКОМБАНК"</option>
+<option>ИНГ БАНК (ЕВРАЗИЯ) АО</option>
+<option>КБ "Кубань Кредит" ООО</option>
+<option>АО "АКТИВ БАНК" (ПАО)</option>
+<option>АО КБ "Пойдём!"</option>
+<option>АО АКБ "НОВИКОМБАНК"</option>
+<option>АО Банк "ПСКБ"</option>
+<option>АО КБ "Ситибанк"</option>
+<option>"ЗИРААТ БАНК (МОСКВА)" (АО)</option>
+<option>Банк "КУБ" (АО)</option>
+<option>ПАО "АКИБАНК"</option>
+<option>ПАО "АК БАРС" БАНК</option>
+<option>АКБ "Алмазэргиэнбанк" АО</option>
+<option>АО Банк "Объединенный капитал"</option>
+<option>АО АКБ "МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ"</option>
+<option>КБ "Дж.П. Морган Банк Интернешнл" (ООО)</option>
+<option>ООО КБ "Алтайкапиталбанк"</option>
+<option>АО "Тинькофф Банк"</option>
+<option>КБ "ЛОКО-Банк" (АО)</option>
+<option>"Северный Народный Банк" (АО)</option>
+<option>ПАО СКБ Приморья "Примсоцбанк"</option>
+<option>АКБ "Держава" ПАО</option>
+<option>АО "НК Банк"</option>
+<option>АО "Тексбанк"</option>
+<option>АО "ОТП Банк"</option>
+<option>ООО "АТБ" Банк</option>
+<option>АО МС Банк Рус</option>
+<option>АО РОСЭКСИМБАНК</option>
+<option>АО "Банк ФИНАМ"</option>
+<option>АО "БАНК СГБ"</option>
+<option>ООО КБ "СИНКО-БАНК"</option>
+<option>(АО "Банк "Агророс")</option>
+<option>ПАО АКБ "АВАНГАРД"</option>
+<option>АО КБ "АГРОПРОМКРЕДИТ"</option>
+<option>"Банк Кремлевский" ООО</option>
+<option>ООО КБ "АРЕСБАНК"</option>
+<option>АО "ГОРБАНК"</option>
+<option>АО "РОСКОСМОСБАНК"</option>
+<option>АО "Углеметбанк"</option>
+<option>ООО "Экспобанк"</option>
+<option>ПАО АКБ "Приморье"</option>
+<option>АО "Нордеа Банк"</option>
+<option>"Республиканский Кредитный Альянс" ООО</option>
+<option>Джей энд Ти Банк (АО)</option>
+<option>ПАО "РГС Банк"</option>
+<option>АО "РФК-банк"</option>
+<option>АО "НС Банк"</option>
+<option>АО "Банк БЖФ"</option>
+<option>ПАО "Банк "Екатеринбург"</option>
+<option>АО "МОСКОМБАНК"</option>
+<option>ООО КБ "ВНЕШФИНБАНК"</option>
+<option>АО КБ "ИС Банк"</option>
+<option>Эс-Би-Ай Банк ООО</option>
+<option>АО НОКССБАНК</option>
+<option>АО "РУНА-БАНК"</option>
+<option>АО "СЭБ Банк"</option>
+<option>АО БАНК "МОСКВА-СИТИ"</option>
+<option>ПАО "Промсвязьбанк"</option>
+<option>ПАО Банк ЗЕНИТ</option>
+<option>АО "БАНК ОРЕНБУРГ"</option>
+<option>Банк "ВБРР" (АО)</option>
+<option>ООО "Эйч-эс-би-си Банк (РР)"</option>
+<option>АО "Райффайзенбанк"</option>
+<option>"Русьуниверсалбанк" (ООО)</option>
+<option>АО "КОШЕЛЕВ-БАНК"</option>
+<option>АО "Кредит Европа Банк (Россия)"</option>
+<option>ООО "Дойче Банк"</option>
+<option>АО "Денизбанк Москва"</option>
+<option>АО "КОММЕРЦБАНК (ЕВРАЗИЯ)"</option>
+<option>АО "Мидзухо Банк (Москва)"</option>
+<option>АО "МСП Банк"</option>
+<option>АО "Россельхозбанк"</option>
+<option>КБ "Ренессанс Кредит" (ООО)</option>
+<option>КБ "Москоммерцбанк" (АО)</option>
+<option>АО "СМП Банк"</option>
+<option>АО "Банк Финсервис"</option>
+<option>"Натиксис Банк АО"</option>
+<option>"Банк "МБА-МОСКВА" ООО</option>
+<option>АО "МБ Банк"</option>
+<option>АО КБ "РУСНАРБАНК"</option>
+<option>"БНП ПАРИБА БАНК" АО</option>
+<option>ООО "Унифондбанк"</option>
+<option>КБ "Новый век" (ООО)</option>
+<option>АО Банк "Национальный стандарт"</option>
+<option>Банк НФК (АО)</option>
+<option>"Коммерческий Индо Банк" ООО</option>
+<option>Банк "РЕСО Кредит" (АО)</option>
+<option>АО "Эм-Ю-Эф-Джи Банк (Евразия)"</option>
+<option>АО "Тойота Банк"</option>
+<option>"Мерседес-Бенц Банк Рус" ООО</option>
+<option>АйСиБиСи Банк (АО)</option>
+<option>АО "СМБСР Банк"</option>
+<option>ООО "Фольксваген Банк РУС"</option>
+<option>ООО "Чайна Констракшн Банк"</option>
